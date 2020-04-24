@@ -9,7 +9,14 @@ username: user
 password: dev
 ```
 
-## Usage
+## Scripts
+
+| script     | description                                                                                                  |
+| ---------- | ------------------------------------------------------------------------------------------------------------ |
+| `start.sh` | boots up the docker instance and binds to `127.0.0.1:3306` in the background and waits for mysql to be ready |
+| `stop.sh`  | terminates and cleans the docker                                                                             |
+
+## Docker Usage
 
 | command               | description                                                |
 | --------------------- | ---------------------------------------------------------- |
