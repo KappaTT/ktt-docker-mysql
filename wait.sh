@@ -9,4 +9,4 @@ while !(mysql_docker_ready); do
     sleep 1
 done
 
-echo "MySQL docker is ready"
+echo "\xE2\x9C\x94 MySQL docker is ready"
