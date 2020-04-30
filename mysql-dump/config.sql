@@ -44,7 +44,7 @@ CREATE TABLE `event` (
   `excusable` tinyint(1) DEFAULT NULL,
   `title` varchar(32) DEFAULT '',
   `description` varchar(256) DEFAULT '',
-  `start` datetime DEFAULT NULL,
+  `start` varchar(32) DEFAULT NULL,
   `duration` int(11) DEFAULT NULL,
   `location` varchar(64) DEFAULT NULL,
   PRIMARY KEY (`id`)
